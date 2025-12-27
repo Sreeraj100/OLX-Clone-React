@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import Input from "../Input/Input";
 import { UserAuth } from "../../Context/Auth";
 import { addDoc, collection, doc, updateDoc ,getDoc} from "firebase/firestore";
-import { fetchFromFirestore, fireStore } from "../Firebase/firebase";
+import { fetchFromFirestore, fireStore } from "../Firebase/Firebase";
 import fileUpload from "../../assets/fileUpload.svg";
 import loading from "../../assets/loading.gif";
 import close from "../../assets/close.svg";
