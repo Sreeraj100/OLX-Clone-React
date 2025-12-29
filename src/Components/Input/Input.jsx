@@ -4,7 +4,7 @@ const Input = (props) => {
   return (
     <div className="pt-2 w-full relative">
       <input
-        value={value}   // ✅ THIS IS THE KEY FIX
+        value={value} 
         onChange={(event) => setInput(event.target.value)}
         type="text"
         className="w-full border-2 border-black rounded-md p-3 pt-4 pb-2 focus:outline-none peer"
